@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sawarabi+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fd6c11;
+    text-decoration: none;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__corpo {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.apresentacao__corpo__titulo {
+    font-size: 2.19rem;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fd6c11;
+}
+
+.titulo__destaque {
+    color: #ff6000;
+}
+
+.apresentacao__corpo__texto {
+    font-size: 18px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    text-align: justify;
+}
+
+.texto__destaque {
+    color: #ec8965;
+}
+
+.apresentacao__corpo__subtitulo {
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fd6c11;
+}
+
+.apresentacao__corpo__link {
+    color: #f6f6f6;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.apresentacao__links__redes {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    border: 4px solid #ff6000;
+    width: 95px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 200;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.apresentacao__links__redes:hover {
+    background-color: #525252;
+    padding: 2%;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #ff6000;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 24px;
+    font-weight: 400;
+}
+
+.imagem {
+    border-radius: 70px;
+}
